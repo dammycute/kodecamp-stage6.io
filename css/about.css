@@ -1,0 +1,122 @@
+.nav-me{
+    column-gap: 1rem;
+}
+
+.navbar-nav li a{
+    color: black !important;
+}
+
+.pro-img{
+    padding-right: 1rem;
+}
+
+.pro-img .number{
+    width: 40px;
+    height: 40px;
+}
+
+.hero-text{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    justify-content: center;
+    padding: 4rem;
+    max-width: 600px;
+    width: 100%;
+    row-gap: 2rem;
+}
+
+.hero img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.features-ctn{
+    
+}
+
+.img-1.first{
+    background-image: linear-gradient(rgba(248, 91, 41, 0.9), rgba(255, 123, 83, 0.664)), url('/img/StepsRight.png');
+    padding: 4rem;
+    color: #fff;
+}
+
+.img-1.second{
+    background-image: linear-gradient(black, rgba(15, 15, 15, 0.884)), url('/img/unsplash2.png');
+    padding: 4rem;
+    color: #fff;
+}
+
+.img-1.third{
+    background-image: linear-gradient(var(--accent-color), #661ce7bd), url('/img/unsplash2.png');
+    padding: 4rem;
+    color: #fff;
+}
+
+.cardy img{
+    padding: 0.2rem;
+    background-color: var(--primary-color);
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.cardy{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    
+}
+
+.card-container{
+    column-gap: 0.2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.valued-customer{
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+
+.valued-customer h4{
+    padding-block: 1.3rem;
+    text-align: center;
+}
+
+.valued-customer .touch-col{
+    padding: 1.2rem;
+}
+
+.valued-customer h3{
+    color: var(--accent-color);
+}
+
+.team h3{
+    text-align: center;
+}
+
+.team-card{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.team-card img{
+    max-height: 200px;
+    width: 100%;
+}
+
+.overlay{
+    background-color: black;
+    color: rgb(231, 231, 231);
+    padding: 1rem;
+    text-align: center;
+}

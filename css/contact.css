@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contact-section .left-section h3 {
+    font-size: 64px;
+}
+
+#contact-section .left-section .bg-light {
+    background: #F2F2F2 !important;
+    width: 100%;
+}
+
+#contact-section .left-section .btn-secondary {
+    background: #FF6433 !important;
+}
+
+#map-section .image-one {
+    position: relative;
+    top: 120px;
+}
+
+#footer-section .bg-black {
+    background: #1E1B1B !important;
+}
+
+#footer-section .container .nav-link, #footer-section .container .copyright {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+@media (max-width: 426px) {
+    #map-section .image-one {
+        top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #map-section .image-one {
+        top: 70px
+    }
+}

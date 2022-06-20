@@ -1,0 +1,17 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+#footer-section .container .nav-link,
+#footer-section .container .copyright {
+  color: #ffffff !important;
+  font-size: 16px;
+}
+
+#footer-section .bg-black {
+  background: #1e1b1b !important;
+}
+
+#footer-section #top_footer.bg-black {
+  background: rgba(30, 27, 27, 0.98) !important;
+}
